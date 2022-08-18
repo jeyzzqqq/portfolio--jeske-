@@ -1,5 +1,6 @@
 @import 'utilities.css';
 
+
 :root {
   --primary: rgb(29, 221, 189);
   --bgDark: rgb(12, 12, 12);
@@ -190,22 +191,24 @@ section.about .socials a:hover {
 }
 
 
-section.services {
-  background: rgb(17, 17, 17)
+section.services  {
+ background: rgb(17,17,17)
 }
+
+
 
 .services-head {
   color: rgb(10, 9, 9);
   text-align: center;
-  margin-bottom: 1rem;
-  line-height: 0.5rem;
+  margin-bottom: 12rem;
+  line-height: 1rem;
   color: var(--primary);
 }
 
 .services-head+p {
   color: var(--white);
   font-family: 'Lato', sans-serif;
-  margin-bottom: 1rem;
+  margin-bottom: 6rem;
   text-align: center;
   margin-bottom: 6rem;
   font-weight: 400;
@@ -213,7 +216,7 @@ section.services {
 
 .card img {
   width: 50px;
-  background: white;
+  background: black;
 }
 
 section.services .card-grid {
